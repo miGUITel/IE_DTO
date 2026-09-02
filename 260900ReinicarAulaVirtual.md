@@ -4,11 +4,11 @@ El objetivo es **reutilizar el mismo curso Moodle con una nueva promoción**, co
 
 La copia de seguridad tendrá una función secundaria: debido a los permisos de nuestro Moodle, **no puede incluir datos de los usuarios**, por lo que servirá para conservar la estructura y los materiales del curso, pero no como respaldo de las entregas y calificaciones del alumnado.
 
-## 1. Resumen de tareas
+# 1. Resumen de tareas
 
 1. **Exportar las calificaciones.**
 2. **Crear opcionalmente una copia de seguridad del curso.**
-3. **Desmatricular al alumnado antiguo.**
+3. Desmatricular al alumnado antiguo. **PELIGRO!! No te desmatricules a ti mismo, perderás el curso...**
 4. **Corregir la fecha de inicio del curso anterior.**
 5. **Reiniciar únicamente la fecha de inicio.**
 6. **Comprobar el desplazamiento de las fechas.**
@@ -99,7 +99,12 @@ La opción exacta puede depender del método de matriculación utilizado por el 
 
 Desmatricular a todos los estudiantes de la promoción que acaba de terminar.
 
-No borrar usuarios ni utilizar todavía ninguna opción de reinicio para eliminar datos.
+> PELIGRO! En aula virtual, en partcipantes, se pueden seleccionar todos los usuarios para desmatricularlos.
+> PELIGRO! NO te desmatricules a ti mismo como profesor, ***perderás el acceso a tu curso!***
+>
+> ![alt text](./img/image.png)
+
+No utilizar todavía ninguna opción de reinicio para eliminar datos.
 
 ### Por qué
 
@@ -179,7 +184,7 @@ salvo que exista algún motivo concreto para modificarla.
 
 ## Elegir el desplazamiento temporal
 
-En lugar de trasladar exactamente:
+En lugar de trasladar exactamente *365 días*:
 
 `1/09/2025 → 1/09/2026`
 
@@ -195,9 +200,10 @@ Por ejemplo:
 
 Esto suele ser más útil académicamente que conservar exactamente el día y mes, porque las tareas y cuestionarios suelen estar relacionados con los días en que se imparte clase.
 
+![alt text](./img/Captura%20de%20pantalla%202026-09-02%20125814.png)
 ---
 
-# 6. No borrar ningún dato histórico durante el reinicio
+### 5.1 No borrar ningún dato histórico durante el reinicio
 
 Este es el punto más importante del procedimiento.
 
@@ -255,7 +261,7 @@ Precisamente son datos que queremos conservar.
 
 ---
 
-# 7. Ejecutar el reinicio
+### 5.2. Ejecutar el reinicio
 
 Una vez comprobado que:
 
@@ -280,7 +286,7 @@ El día de la semana permanece igual.
 
 ---
 
-# 8. Comprobar las fechas resultantes
+# 6. Comprobar las fechas resultantes
 
 Antes de matricular al nuevo alumnado, comprobar manualmente algunas actividades representativas:
 
@@ -298,7 +304,7 @@ El desplazamiento de 52 semanas nos proporciona una **muy buena plantilla inicia
 
 ---
 
-# 9. Matricular al nuevo alumnado
+# 7. Matricular al nuevo alumnado
 
 ### Dónde está
 
